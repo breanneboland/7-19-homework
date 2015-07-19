@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+  </head>
+  <body>
+    <center>
+      <h1>Work with us.</h1>
+      <div id="instructions"><p>Ubermelon is for doers. Thinkers. Believers. What do you need to believe in? Melons, primarily - we really don't need to keep this conversation going if you don't believe wildly in watermelons, copiously in canaries, and holistically in honeydews. But beyond that, we care completely about code - and about you. If you believe in melons, anyway. If not, move along, friend.</p>
+      <p>So tell us a bit about yourself (at least the relevant names, number, and interest), and maybe we can make this happen tonight.</p></div>
+      <div id="forms">
+        <form action="/application" method="POST">
+        <label id="first-name-blank">What's your first name? </label>
+          <input type="text" name="firstname" class="form-blanks"><br>
+        <label id="last-name-blank">What's your last name? </label>
+          <input type="text" name="lastname" class="form-blanks" id="last-name"><br>
+        <label id="salaryreq">What's your annual salary requirement? (Numbers only, please.) </label>
+          <input type="number" name="salaryreq" min="50000" class="form-blanks"><br>
+        <label id="jobtype">I would like to apply to be a: </label>
+          <select name="job" class="form-blanks">
+            <option value="software engineer">Software engineer</option>
+            <option value="QA engineer">QA engineer</option>
+            <option value="product manager">Product manager</option>
+          </select><br>
+        <input type="submit" value="Apply" id="submit-button">
+        </form>
+      </div>
+    </center>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+.form-blanks {
+  background-color: #FFE000;
+}
+
+#submit-button {
+  background: #FFE000;
+}
+
+#last-name {
+  font-weight: bold;
+}
+
+#instructions {
+  width: 400px;
+  border: 2px solid #FFE000;
+  background-color: #99CF16;
+  padding: 2em;
+  margin: 2em;
+  border-radius: 15px 50px;
+}
+
+h1 {
+  color: #008837;
+  font-family: sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+#forms {
+  width: 300px;
+}
